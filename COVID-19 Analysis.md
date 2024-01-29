@@ -171,7 +171,8 @@ where continent is not null
 --group by date
 order by 1,2
 ```
-![Screenshot 2023-11-28 170811](https://github.com/phelpsbp/Projects/assets/150976820/d57ef499-6bb8-49de-9c4a-8f193b1323cb)
+![Screenshot 2023-11-28 170811](https://github.com/phelpsbp/COVID-19-Rates-Dashboard/assets/150976820/49ca8293-c4cc-455c-a4c3-c807ca42412f)
+
 
 ### Continents with the Highest Death Counts
 ```sql
@@ -183,7 +184,7 @@ and location not in ('World', 'European Union', 'International')
 group by location
 order by TotalDeathCount desc
 ```
-![Screenshot 2023-11-28 170830](https://github.com/phelpsbp/Projects/assets/150976820/a2899fce-8fc5-4674-9626-6c5d3932b3b3)
+![Screenshot 2023-11-28 170830](https://github.com/phelpsbp/COVID-19-Rates-Dashboard/assets/150976820/8a0cf728-be4f-47f8-99b6-a176b35efd95)
 
 ### Highest Infection Rates
 ```sql
@@ -194,7 +195,7 @@ from PortfolioProject..CovidDeaths$
 group by location, population
 order by PercentPopulationInfected desc
 ```
-![Screenshot 2023-11-28 170902](https://github.com/phelpsbp/Projects/assets/150976820/72dde584-b52c-42e8-a3cc-f7ebaa2f210f)
+![Screenshot 2023-11-28 170902](https://github.com/phelpsbp/COVID-19-Rates-Dashboard/assets/150976820/e6fe10e9-6152-4227-abcf-9b042a883253)
 
 ### Highest Infection Rates by Country, Represented Over Time. 
 ```sql
@@ -205,13 +206,13 @@ from PortfolioProject..CovidDeaths$
 group by location, population, date
 order by PercentPopulationInfected desc
 ```
-![Screenshot 2023-11-28 171015](https://github.com/phelpsbp/Projects/assets/150976820/2fd630a5-8ba3-499f-9f1f-1966ed649849)
-  
+![Screenshot 2023-11-28 171015](https://github.com/phelpsbp/COVID-19-Rates-Dashboard/assets/150976820/8df36137-f37c-4652-9280-2e4ec51ae747)
+
 ## Deliverables
 
 
 The Full, interactive Tableau Dashboard can be viewed [here](https://public.tableau.com/app/profile/brittany.everette/viz/CovidDashboard_17001768757930/Dashboard1)
-![Screenshot 2023-11-20 193802](https://github.com/phelpsbp/Projects/assets/150976820/f565cc5f-969d-422a-ae64-6387f5957573)
+![TableauDashboard](https://github.com/phelpsbp/COVID-19-Rates-Dashboard/assets/150976820/99e0e2cb-6924-4d8a-800a-9352c5796fbe)
 
 
 
